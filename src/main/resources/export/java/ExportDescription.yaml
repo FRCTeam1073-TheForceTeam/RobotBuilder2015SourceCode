@@ -257,6 +257,11 @@ Instructions:
     ClassName: "CANJaguar"
     Import: "import edu.wpi.first.wpilibj.can.*;"
     Construction: "#variable($Name) = new CANJaguar($CAN_ID);"
+  CAN Talon SRX:
+    Defaults: "Component,None"
+    ClassName: "CANTalon"
+    Import: "import edu.wpi.first.wpilibj.CANTalon;"
+    Construction: "#variable($Name) = new CANTalon($CAN_ID);"
   Servo:
     Defaults: "PWMOutput,Component,None"
     ClassName: "Servo"
